@@ -1,4 +1,6 @@
-import { MonthEnum } from "./monthEnum";
+import { MonthEnum } from './monthEnum';
+
+export const API_ENDPOINT = '';
 
 export const INITIAL_VALUE = {
   chickenPrice: 0,
@@ -15,73 +17,73 @@ export const INITIAL_VALUE = {
         name: MonthEnum.jan,
         monthNumber: 0,
         monthTotal: 0,
-        days: []
+        days: [],
       },
       {
         name: MonthEnum.feb,
         monthNumber: 0,
         monthTotal: 0,
-        days: []
+        days: [],
       },
       {
         name: MonthEnum.mar,
         monthNumber: 0,
         monthTotal: 0,
-        days: []
+        days: [],
       },
       {
         name: MonthEnum.apr,
         monthNumber: 0,
         monthTotal: 0,
-        days: []
+        days: [],
       },
       {
         name: MonthEnum.may,
         monthNumber: 0,
         monthTotal: 0,
-        days: []
+        days: [],
       },
       {
         name: MonthEnum.jun,
         monthNumber: 0,
         monthTotal: 0,
-        days: []
+        days: [],
       },
       {
         name: MonthEnum.jul,
         monthNumber: 0,
         monthTotal: 0,
-        days: []
+        days: [],
       },
       {
         name: MonthEnum.aug,
         monthNumber: 0,
         monthTotal: 0,
-        days: []
+        days: [],
       },
       {
         name: MonthEnum.sept,
         monthNumber: 0,
         monthTotal: 0,
-        days: []
+        days: [],
       },
       {
         name: MonthEnum.oct,
         monthNumber: 0,
         monthTotal: 0,
-        days: []
+        days: [],
       },
       {
         name: MonthEnum.nov,
         monthNumber: 0,
         monthTotal: 0,
-        days: []
+        days: [],
       },
       {
         name: MonthEnum.dec,
         monthNumber: 0,
         monthTotal: 0,
-        days: []
+        days: [],
       },
     ],
   },
