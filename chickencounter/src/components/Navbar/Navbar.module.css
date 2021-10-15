@@ -41,6 +41,10 @@ ul {
     color: white;
 }
 
+.infobar_money {
+    color: #85bb65;
+}
+
 .actionBarWrapper {
     width: 26%;
     padding: 15px;
