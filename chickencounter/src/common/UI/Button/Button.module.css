@@ -1,0 +1,18 @@
+.actionBtn {
+    border: 2px solid #8f490e8c;
+    padding: 10px;
+    color: white;
+    background-color: #ff7400;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    box-shadow: 0px 1px #ff7400;
+    margin-left: 5px;
+}
+
+.actionBtn:hover,
+.actionBtn:active {
+    cursor: pointer;
+    background-color: #eb6a00;
+    box-shadow: none;
+}

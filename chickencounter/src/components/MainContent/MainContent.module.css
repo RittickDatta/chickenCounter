@@ -1,0 +1,9 @@
+.chickenWrapper {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 260px;
+}
+
+.extraPadding {
+    padding: 23px;
+}

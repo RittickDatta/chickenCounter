@@ -7,10 +7,29 @@ import WorkRecord from '../../components/WorkRecord/WorkRecord';
 import Dialog from '../../common/Dialog/Dialog';
 
 function ChickenCounterContainer() {
+
+  const priceUpdateHandler = () => {
+
+  }
+
+  const workRecordHandler = () => {
+
+  }
+
+  const updateChickenCount = () => {
+
+  }
+
   return (
     <div>
-      <Navbar />
-      <MainContent />
+      <Navbar 
+      priceUpdateHandler={priceUpdateHandler}
+      workRecordHandler={workRecordHandler}
+      />
+      <MainContent 
+        chickenCount={3}
+        // updateChickenCount={}
+      />
       {
         <Dialog>
           <PriceUpdate />

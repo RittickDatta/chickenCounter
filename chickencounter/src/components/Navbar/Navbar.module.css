@@ -1,0 +1,53 @@
+nav {
+    background-color: black;
+    height: 86px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navbar {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.infoBarWrapper {
+    width: 50%;
+}
+
+.infoBar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.infobar_infoblock {
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 50px;
+    background: black;
+    box-shadow: -8px 5px;
+}
+.infobar_infoTitle {
+    color: #ffce00;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: larger;
+    font-weight: 600;
+}
+.infobar_infoVal {
+    color: white;
+}
+
+.actionBarWrapper {
+    width: 26%;
+    padding: 15px;
+}
+
+.actionBar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
