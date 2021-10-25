@@ -7,3 +7,7 @@
 .extraPadding {
     padding: 23px;
 }
+
+.chickenContainer {
+    max-width: 300px;
+}

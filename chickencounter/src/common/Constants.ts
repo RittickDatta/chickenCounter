@@ -1,9 +1,10 @@
 import { MonthEnum } from './monthEnum';
 
 export const API_ENDPOINT = '';
+const initialChickenPrice = 50;
 
 export const INITIAL_VALUE = {
-  chickenPrice: 0,
+  chickenPrice: initialChickenPrice,
   countData: {
     todaysCount: 0,
     thisWeeksCount: 0,

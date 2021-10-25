@@ -1,6 +1,6 @@
 import { Year } from "./Year";
 
-interface Count {
+export interface Count {
     todaysCount: number;
     thisWeeksCount: number;
     thisMonthsCount: number;
